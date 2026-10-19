@@ -1,0 +1,17 @@
+# Local secrets and settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private working material: these paths are not part of the public template
+private/
+**/private/
+clients/
+exports/
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
